@@ -31,16 +31,6 @@ namespace Magic8Ball
                     break;
                 }
 
-                if(questionString.ToLower() == "fuck you")
-                {
-                    Console.ForegroundColor = (ConsoleColor)randomObject.Next(15);
-                    Console.WriteLine("Well, fuck you too, negro!!");
-                    Thread.Sleep(3000);
-                    Console.WriteLine("Bye felicia!");
-                    Thread.Sleep(500);
-                    break;
-                }
-
                 if (questionString.Length == 0)
                 {
                     Console.WriteLine("You need to ask a question!");
