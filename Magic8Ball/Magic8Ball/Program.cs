@@ -30,6 +30,13 @@ namespace Magic8Ball
                     Thread.Sleep(5000);
                     break;
                 }
+                
+                if (questionString.ToLower() == "bye")
+                {
+                    Console.WriteLine("Bye felicia!")
+                        Thread.Sleep(1000);
+                    break;
+                }    
 
                 if (questionString.Length == 0)
                 {
